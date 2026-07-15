@@ -43,9 +43,9 @@ VALUES ("Lucas Souza", 22, 1),
 SELECT * FROM tb_curso;
 SELECT * FROM tb_aluno;
 
-SELECT * FROM tb_aluno WHERE tb_aluno.idade > 17;
+SELECT * FROM tb_aluno WHERE tb_aluno.idade > 19;
 
-UPDATE tb_aluno SET tb_aluno.idade = 21 WHERE tb_aluno.id = 1;
+UPDATE tb_aluno SET tb_aluno.idade = 40 WHERE tb_aluno.id = 2;
 
 DELETE FROM tb_aluno WHERE id = 5;
 
